@@ -65,7 +65,7 @@
 <blockquote>
 <p>Remote接口用于标识可以从非本地虚拟机调用其方法的接口。 作为远程对象的任何对象都必须直接或间接实现此接口。</p>
 </blockquote>
-<p><img src="C:/Users/86150/AppData/Roaming/Typora/typora-user-images/image-20211215200833666.png" alt="image-20211215200833666"></p>
+<p><img src="https://gitee.com/li-qinghan/cloudimages111/raw/master/img/20211218221554.png" alt="image-20211215200833666"></p>
 <blockquote>
 <p><strong>UnicastRemoteObject</strong><br>用于通过JRMP导出远程对象并获取与远程对象通信的存根。 存根在运行时使用动态代理对象生成，或者在构建时静态生成，通常使用rmic工具。</p>
 <p>JRMP</p>
@@ -84,7 +84,7 @@
 <p><img src="https://gitee.com/li-qinghan/cloudimages111/raw/master/img/20211215232121.png" alt="image-20211215232008608"></p>
 <p><img src="https://gitee.com/li-qinghan/cloudimages111/raw/master/img/20211215232117.png" alt="image-20211215231720533"></p>
 <p>因为是双App调试,所有现在程序暂停在了App对于目录下HelloService.sayhello()方法的调用</p>
-<p><img src="C:/Users/86150/AppData/Roaming/Typora/typora-user-images/image-20211215231133191.png" alt="image-20211215231133191"></p>
+<p><img src="https://gitee.com/li-qinghan/cloudimages111/raw/master/img/20211218221607.png" alt="image-20211215231133191"></p>
 <p>整个过程中涉及到多次lookup方法的执行.感觉上这个lookup方法在和远程类通讯,多次进行了传递参数和命令,检视远程类的状态.不知道我理解的对不对.</p>
 <p>我们回到p神这边来</p>
 <blockquote>
